@@ -16,8 +16,7 @@
             <a href="#" class="flex px-6 py-2"> Home </a>
             <a href="#" class="flex px-6 py-2"> Timer </a>
             <a href="#" class="flex px-6 py-2"> Product </a>
-            <a href="#" class="flex px-6 py-2"> Contact </a>
-            <a href="#" class="flex px-6 py-2"> Carrer </a>
+            <a href="#" class="flex px-6 py-2"> About </a>
           </nav>
           <button class="flex flex-col ml-4 lg:hidden">
             <span class="w-6 h-1 mb-1 bg-gray-800 dark:bg-white" />
@@ -61,9 +60,9 @@
         </div>
         <div class="relative hidden sm:block sm:w-1/3 lg:w-3/5">
           <img
-            src="/images/object/10.png"
+            src="/assets/pomodorino.jpeg"
             class="max-w-xs m-auto md:max-w-sm"
-          >
+          />
         </div>
       </div>
     </div>
