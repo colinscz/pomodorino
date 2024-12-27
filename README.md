@@ -1,9 +1,10 @@
 # pomodorino 🍅
+
 Pomodoro webapp - level up your productivity
 
-
 ## What is the pomodoro technique?
-Pomodoro is a method for staying focused and getting things done. 
+
+Pomodoro is a method for staying focused and getting things done.
 
 1. Decide on the task to be done.
 2. Set the pomodoro timer (~25 minutes).
