@@ -1,19 +1,26 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+
+</script>
 
 <template>
-  <h1>Pomodorino!</h1>
-  <p>
-    <strong>Current route path:</strong> {{ $route.fullPath }}
-  </p>
-  <nav>
-    <RouterLink to="/timer">
-      Go to Timer
-    </RouterLink>
-    <RouterLink to="/about">
-      Go to About
-    </RouterLink>
-  </nav>
-  <main class="relative h-screen overflow-hidden bg-red-900 text-white">
-    <RouterView />
-  </main>
+  <div class="">
+    <div class="max-w-[620px] mx-auto">
+      <nav class="text-center mx-auto">
+        <h1 class="inline">
+          Pomodorino
+        </h1>
+        <RouterLink to="/">
+          Timer
+        </RouterLink>
+        <RouterLink to="/about">
+          About
+        </RouterLink>
+      </nav>
+      <main class="relative h-screen overflow-hidden max-w-[640px]">
+        <div class="bg-red-600">
+          <RouterView />
+        </div>
+      </main>
+    </div>
+  </div>
 </template>

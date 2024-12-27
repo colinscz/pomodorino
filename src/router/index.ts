@@ -3,7 +3,7 @@ import AboutView from '../views/AboutView.vue'
 import TimerView from '../views/TimerView.vue'
 
 const routes = [
-  { path: '/timer', component: TimerView },
+  { path: '/', component: TimerView },
   { path: '/about', component: AboutView },
 ]
 
